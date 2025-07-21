@@ -124,7 +124,7 @@
         jsonData[key] = value;
       });
 
-      fetch("SUA_WEBHOOK_URL_AQUI", {
+      fetch("https://script.google.com/macros/s/AKfycbxPt0XIMak5QZTJkVhDAKSJDub_WIL4d2jI5MpGJlCc5k8EIJMWg67gD6ROYvCxp3Xv/exec", {
         method: "POST",
         body: JSON.stringify(jsonData),
         headers: {
